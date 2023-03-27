@@ -6,7 +6,8 @@ class NotifyMobile
 {
     private static $to = [];
     private static $fcmUrl = 'https://fcm.googleapis.com/fcm/send';
-    private static $key = "AAAAWqaqUiw:APA91bGDapj0N9wS4R8a9WhR78eZWnF_hgiu0fsLOAvD8UZ16WIP_9VTocXgMA-vxf15e-fMrONJdN3QeLq-kM-oVG4vCOS5UGfLgeZXaHiKCQfOrY3M3dAmD2a8888zKaKO0ONqgRps";
+    //  FCM Key
+    private static $key = "";
     private static $headers = [];
     private static $fcmNotification = [];
 
